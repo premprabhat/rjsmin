@@ -29,4 +29,4 @@ jobs:
     - name: Build package
       run: |
         #cd tasks
-        invoke -c ./tasks/build wheels
+        invoke -c ./tasks/build --list
