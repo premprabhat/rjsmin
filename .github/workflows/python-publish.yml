@@ -27,6 +27,4 @@ jobs:
         #pip install invoke sphinx sphinx_rtd_theme
     - name: Build package
       run: |
-        chmod 777 tasks/build.py
-        ./tasks/build.py
-        #python -m invoke build
+        python -m invoke wheels
