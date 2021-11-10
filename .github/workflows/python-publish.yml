@@ -29,4 +29,4 @@ jobs:
     - name: Build package
       run: |
         #cd tasks
-        invoke wheels
+        invoke -c ./tasks/build.py wheels
