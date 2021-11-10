@@ -28,4 +28,5 @@ jobs:
         #pip install invoke sphinx sphinx_rtd_theme
     - name: Build package
       run: |
+        cd tasks
         python -m invoke wheels
