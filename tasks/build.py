@@ -12,7 +12,7 @@ import re as _re
 
 import invoke as _invoke
 
-#from . import doc as _doc
+from . import doc as _doc
 from . import _dist
 from . import _release
 from . import _version
