@@ -12,10 +12,10 @@ import re as _re
 
 import invoke as _invoke
 
-#from . import doc as _doc
-#from . import _dist
-#from . import _release
-#from . import _version
+from . import doc as _doc
+from . import _dist
+from . import _release
+from . import _version
 
 
 @_invoke.task(_doc.doc, default=True)
