@@ -29,4 +29,5 @@ jobs:
     - name: Build package
       run: |
         #cd tasks
+        invoke -c test -r ./tasks --list
         invoke -c build -r ./tasks --list
